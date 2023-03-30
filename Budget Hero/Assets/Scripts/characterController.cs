@@ -7,6 +7,7 @@ public class characterController : MonoBehaviour
 
     public float moveSpeed;
 
+    private Vector2 moveDir;
     void Start()
     {
         
@@ -14,13 +15,12 @@ public class characterController : MonoBehaviour
 
     void Update()
     {
-        
+        moveDir.x = Input.GetAxisRaw("Horizontal");
+        moveDir.y = Input.GetAxisRaw("Vertical");
     }
 
     private void FixedUpdate() {
 
-        float horizontalInput = Input.GetAxisRaw("Horizontal");
-        float verticalInput = Input.GetAxisRaw("Vertical");
-        transform.Translate(new Vector3(moveSpeed * horizontalInput, moveSpeed * verticalInput, 0) * Time.deltaTime);
+        transform.Translate(new Vector3(moveSpeed * moveDir.x, moveSpeed * moveDir.y, 0) * Time.deltaTime);
     }
 }
