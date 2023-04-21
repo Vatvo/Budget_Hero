@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 1028540294536063294}
   - component: {fileID: 1028540294536063265}
   - component: {fileID: 1028540294536063264}
-  m_Layer: 0
+  - component: {fileID: 1076732575505116465}
+  m_Layer: 6
   m_Name: Wasp
-  m_TagString: Untagged
+  m_TagString: Hazard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101,7 +102,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 25
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -153,6 +154,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0f1d903815e24510a525b2836e85a61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
   target: {fileID: 0}
   speed: 2
+--- !u!114 &1076732575505116465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028540294536063267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8960e6735cb74d80a3280377115ecd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 3
