@@ -2578,7 +2578,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1286689815}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1.17, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3021,6 +3021,10 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: ac0e0dba941f31b4e810022f3a922de6, type: 2}
   - m_RefCount: 4
     m_Data: {fileID: 11400000, guid: 230d0deb671624e4d9a71b1e507a03b8, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileSpriteArray:
   - m_RefCount: 4
     m_Data: {fileID: 21301622, guid: d21555ce72e390f49ba41fd54c373b1b, type: 3}
@@ -3048,6 +3052,10 @@ Tilemap:
     m_Data: {fileID: 21301308, guid: d21555ce72e390f49ba41fd54c373b1b, type: 3}
   - m_RefCount: 4
     m_Data: {fileID: 21300292, guid: d21555ce72e390f49ba41fd54c373b1b, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileMatrixArray:
   - m_RefCount: 35
     m_Data:
@@ -3073,8 +3081,8 @@ Tilemap:
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: -2, y: -1, z: 0}
-  m_Size: {x: 7, y: 5, z: 1}
+  m_Origin: {x: -7, y: -3, z: 0}
+  m_Size: {x: 12, y: 7, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -3115,11 +3123,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1028540294536063293, guid: 326963d588ce44fa48be0c33126a5080, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.7
+      value: 1.95
       objectReference: {fileID: 0}
     - target: {fileID: 1028540294536063293, guid: 326963d588ce44fa48be0c33126a5080, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.83
+      value: -2.08
       objectReference: {fileID: 0}
     - target: {fileID: 1028540294536063293, guid: 326963d588ce44fa48be0c33126a5080, type: 3}
       propertyPath: m_LocalPosition.z
