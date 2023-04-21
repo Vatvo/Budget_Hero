@@ -646,6 +646,7 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 3238273288104737427, guid: c78ee6023ecf343959944ca6a92631c8, type: 3}
     - {fileID: 3238273288104737416, guid: c78ee6023ecf343959944ca6a92631c8, type: 3}
+    - {fileID: 4411866967192968267, guid: c78ee6023ecf343959944ca6a92631c8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c78ee6023ecf343959944ca6a92631c8, type: 3}
 --- !u!1 &667603194
 GameObject:
@@ -1882,7 +1883,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 2
-      m_TileSpriteIndex: 5
+      m_TileSpriteIndex: 8
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -3569,14 +3570,14 @@ Tilemap:
     m_Data: {fileID: -9183249194827938024, guid: 2529f58c0f0f4784d925363eac539680, type: 3}
   - m_RefCount: 20
     m_Data: {fileID: 2407429496607507848, guid: 2529f58c0f0f4784d925363eac539680, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 1018753578309831016, guid: 2529f58c0f0f4784d925363eac539680, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 79
     m_Data: {fileID: 145176487422733140, guid: 2529f58c0f0f4784d925363eac539680, type: 3}
   - m_RefCount: 20
     m_Data: {fileID: 2751951958336284784, guid: 2529f58c0f0f4784d925363eac539680, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 1018753578309831016, guid: 2529f58c0f0f4784d925363eac539680, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 280
     m_Data:
@@ -3713,7 +3714,7 @@ MonoBehaviour:
   stamina: 5
   walkSpeed: 5
   sprintSpeed: 7
-  playerKnockback: 45
+  playerKnockback: 55
   enemyLayers:
     serializedVersion: 2
     m_Bits: 64
