@@ -330,12 +330,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stamina: 5
-  walkSpeed: 1
-  sprintSpeed: 2
+  walkSpeed: 5
+  sprintSpeed: 7
   playerKnockback: 55
   enemyLayers:
     serializedVersion: 2
     m_Bits: 64
+  interactLayers:
+    serializedVersion: 2
+    m_Bits: 0
   headband: {fileID: 0}
   weapon: {fileID: 6253847844746050117}
   animator: {fileID: 3238273288104737431}
