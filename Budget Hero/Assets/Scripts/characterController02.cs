@@ -95,7 +95,7 @@ public class characterController02 : MonoBehaviour
 
         if(Input.GetKeyDown("k")) {
             attackAnim();  
-
+            FindObjectOfType<audioManager>().Play("PlayerAttack");
             GameObject hitBox = weapon.transform.GetChild(facing).gameObject;
             Collider2D hitCollider = hitBox.GetComponent<Collider2D>();
 
@@ -139,6 +139,7 @@ public class characterController02 : MonoBehaviour
     public void takeDamage(GameObject other, int damage, float knockback) {
 
         playerHealth -= damage;
+        FindObjectOfType<audioManager>().Play("PlayerDamage");
         takeDamageAnim();
         knockBack(other, knockback);
     }
