@@ -10,6 +10,7 @@ public class enemyController : MonoBehaviour
     public void takeDamage(GameObject other, int damage, float knockback) {
         
         Debug.Log("HIT! " + gameObject);
+        FindObjectOfType<audioManager>().Play("EnemyDamage");
         if (health >= 1) {
             health -= 1;
             takeDamageAnim();
