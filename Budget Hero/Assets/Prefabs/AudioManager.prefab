@@ -47,5 +47,16 @@ MonoBehaviour:
   sounds:
   - name: PlayerAttack
     clip: {fileID: 8300000, guid: 68dc49aeb540e4d4fb0b8f80a2bd57b7, type: 3}
-    volume: 0
+    volume: 1
     pitch: 1
+    source: {fileID: 0}
+  - name: PlayerDamage
+    clip: {fileID: 8300000, guid: 67f4d9f6e404d4bacb3d972948f52be1, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: EnemyDamage
+    clip: {fileID: 8300000, guid: ffbc656832fca42a7932d29628ecd54b, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
