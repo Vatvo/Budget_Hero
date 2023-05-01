@@ -42331,7 +42331,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5133919639486985306, guid: fe884ff0ef33843caaa083dee8e557ff, type: 3}
       propertyPath: sceneIndex
-      value: 7
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5133919639486985307, guid: fe884ff0ef33843caaa083dee8e557ff, type: 3}
       propertyPath: m_Size.x
