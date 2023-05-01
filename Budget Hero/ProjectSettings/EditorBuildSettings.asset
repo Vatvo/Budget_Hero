@@ -9,9 +9,24 @@ EditorBuildSettings:
     path: Assets/Scenes/Hub.unity
     guid: 74c7e75db38c742cdb11ca5f50f0e51f
   - enabled: 1
+    path: Assets/Scenes/Sewer0.unity
+    guid: 75c1ea0a9e4f3864ba71a90e70e301e3
+  - enabled: 1
     path: Assets/Scenes/Sewer1.unity
     guid: e92db352b0ca24f41b07694462df793c
   - enabled: 1
     path: Assets/Scenes/Sewer2.unity
     guid: 90cd43cb6f1304c45932629b42b078de
+  - enabled: 1
+    path: Assets/Scenes/Sewer3.unity
+    guid: d16c719bbd8bb724982c03d1c11c519b
+  - enabled: 1
+    path: Assets/Scenes/Sewer4.unity
+    guid: 6462df17c1f3a6540bd52025c6ba0f0d
+  - enabled: 1
+    path: Assets/Scenes/Sewer5.unity
+    guid: 636d2bff554697b4295666446a4bf022
+  - enabled: 1
+    path: Assets/Scenes/Sewer6.unity
+    guid: db4c52c693f930743a06d1fb2fefb35d
   m_configObjects: {}
