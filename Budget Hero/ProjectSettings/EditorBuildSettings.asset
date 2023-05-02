@@ -41,4 +41,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Sewer9.unity
     guid: 78f072743f6b8a0449ef21a89357b06f
+  - enabled: 1
+    path: Assets/Scenes/Shop_1.unity
+    guid: 964067307439cb24a972670fe209e785
+  - enabled: 1
+    path: Assets/Scenes/Shop_2.unity
+    guid: f9e72ee8e2fac2b449dd7fb4b75b3e62
+  - enabled: 1
+    path: Assets/Scenes/Shop_3.unity
+    guid: c7c95b0551fe94c49ae681638396d734
+  - enabled: 1
+    path: Assets/Scenes/VICTORY SCREEN.unity
+    guid: 344bede2b9ffca54e85cb7be9b4e238d
   m_configObjects: {}
