@@ -99,6 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
+  scoreMod: -1
 --- !u!58 &3752069634483946064
 CircleCollider2D:
   m_ObjectHideFlags: 0

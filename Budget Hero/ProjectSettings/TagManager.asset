@@ -7,6 +7,8 @@ TagManager:
   - Hazard
   - Weapon
   - GameMusic
+  - GameManager
+  - ScoreText
   layers:
   - Default
   - TransparentFX

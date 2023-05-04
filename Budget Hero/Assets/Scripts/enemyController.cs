@@ -6,6 +6,7 @@ public class enemyController : MonoBehaviour
 {
 
     public int health = 1;
+    public int scoreMod = 0;
 
     public void takeDamage(GameObject other, int damage, float knockback) {
         
@@ -16,6 +17,9 @@ public class enemyController : MonoBehaviour
             takeDamageAnim();
             knockBack(other, knockback);
         } else {
+            GameObject manager = GameObject.FindGameObjectWithTag("GameManager");
+
+            manager.GetComponent<gameManager>().updateScore(scoreMod);
             Destroy(gameObject);
         }
     }
